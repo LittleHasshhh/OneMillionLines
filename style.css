@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=DM+Serif+Text&display=swap');
+/*
+font-family: 'Arvo', serif;
+font-family: 'DM Serif Text', serif;
+*/
+* {
+    margin: 0;
+}
+
 body {
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+}
+
+    /*Nav Bar*/
+
+nav > img {
+    display: none;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
     background-color: black;
+    height: 50px;
+    align-items: center;
+}
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+    /*Title*/
+
+.title {
+    background-image: url(./images/hero-image.jpg);
+    background-size: cover;
+    
+}
+.title div {
+    text-align: center;
+    height: 700px;
+    width: 40%;
+    margin: auto;
+}
+.title div p {
+    font-weight: lighter;
+    color: white;
+    margin-top: 40px;
+    font-family: 'DM Serif Text', serif;
+    font-size: 0.9rem;
+}
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 70px;
+}
+span {
+    font-weight: bold;
+    font-family: 'DM Serif Text', serif;
 }
