@@ -43,17 +43,32 @@ ul li a {
     
 }
 .title div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     height: 700px;
     width: 40%;
     margin: auto;
+    gap: 35px;
 }
 .title div p {
     font-weight: lighter;
     color: white;
     margin-top: 40px;
     font-family: 'DM Serif Text', serif;
-    font-size: 0.9rem;
+
+}
+.title div img{
+    width: 100px;
+}
+.title div a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(221, 98, 94);
+    padding: 5px 10px;
+    font-size: 1.4rem;
+    border-radius: 5px;
 }
 h1 {
     font-size: 2.5rem;
@@ -61,6 +76,6 @@ h1 {
     padding-top: 70px;
 }
 span {
-    font-weight: bold;
     font-family: 'DM Serif Text', serif;
+    font-size: 1.2rem;
 }
